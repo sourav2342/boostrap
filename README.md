@@ -71,3 +71,23 @@ auto - for classes that set the margin to auto
 ms-auto
 <ul class="navbar-nav ms-auto">
 
+using Toggler to make navbar responsive to screen and to collapse the menu.ref
+https://getbootstrap.com/docs/5.3/components/navbar/#toggler
+
+  note: "With no .navbar-brand shown at the smallest breakpoint: what does that mean"
+    If the ".navbar-brand" class is not shown at the smallest breakpoint, it means that the   brand/logo will not be displayed in the navbar when viewed on devices with small screens such as mobile phones.
+   
+    what is a smallest breakpoint?
+    
+      A breakpoint in web development is a specific point at which the layout of a website or web application changes in response to the size of the viewport or screen of the device on which it is being viewed.
+    
+    In other words, it is a specific width value where a website or web application changes its design to optimize its layout for that specific screen size.
+    
+    These breakpoints are usually defined in CSS using media queries. Media queries allow developers to write CSS rules that apply only when certain conditions are met, such as the width of the viewport being a specific value.
+    
+    
+    
+    
+
+    
+    
