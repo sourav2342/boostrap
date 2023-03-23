@@ -6,10 +6,25 @@ A "nav" is an HTML element that is normally used to enclose other elements relat
 navbar - Navbars require a wrapping .navbar with .navbar-expand{-sm|-md|-lg|-xl|-xxl} for responsive collapsing 
 .navbar-expand{-sm|-md|-lg|-xl|-xxl}- is used to make navbar elements horizontally aligned and responsive withthe length of screen.
 
+bg-light{navbar-light}- used for appending light background for navbar.
+
+bootstarp has different colours light,primary,secondary,danger etc;more details
+https://getbootstrap.com/docs/5.3/components/buttons/
+
+navbar-barnd : used for differentaiting name of org in nav bar.
+
 The "navbar-nav" class is used to style the unordered list that contains the navigation items.
 It sets the list items to display inline, and adds left and right margins to create spacing between the items.
 
-<nav class="navbar navbar-expand-lg">
+The "nav-item" class is used to define each item in the navigation list. It sets the display property to "inline-block", which allows the item to be positioned horizontally on the same line as the other navigation items.
+
+The "nav-link" class is used to define the link within each navigation item. It sets the style of the link, such as color and font, and adds some padding to the link to make it easier to click.
+
+
+<nav class="navbar navbar-expand-lg bg-light">
+    
+    <a class="navbar-brand" href="">contact</a>
+    
     <ul class="navbar-nav">
          <li class="nav-item">
             <a class="nav-link" href="">contact</a>
@@ -22,4 +37,37 @@ It sets the list items to display inline, and adds left and right margins to cre
          </li>
     </ul>
 </nav>
+
+for adding space at the start of navbar elements /between navbar-brand and navbar elements we use space utility
+
+NOTATION of using space utilities:
+
+The classes are named using the format {property}{sides}-{size} for xs and {property}{sides}-{breakpoint}-{size} for sm, md, lg, xl, and xxl.
+
+Where property is one of:
+
+m - for classes that set margin
+p - for classes that set padding
+Where sides is one of:
+
+t - for classes that set margin-top or padding-top
+b - for classes that set margin-bottom or padding-bottom
+s - (start) for classes that set margin-left or padding-left in LTR, margin-right or padding-right in RTL
+e - (end) for classes that set margin-right or padding-right in LTR, margin-left or padding-left in RTL
+x - for classes that set both *-left and *-right
+y - for classes that set both *-top and *-bottom
+blank - for classes that set a margin or padding on all 4 sides of the element
+Where size is one of:
+
+0 - for classes that eliminate the margin or padding by setting it to 0
+1 - (by default) for classes that set the margin or padding to $spacer * .25
+2 - (by default) for classes that set the margin or padding to $spacer * .5
+3 - (by default) for classes that set the margin or padding to $spacer
+4 - (by default) for classes that set the margin or padding to $spacer * 1.5
+5 - (by default) for classes that set the margin or padding to $spacer * 3
+auto - for classes that set the margin to auto
+
+{property}{sides}-{size}
+ms-auto
+<ul class="navbar-nav ms-auto">
 
