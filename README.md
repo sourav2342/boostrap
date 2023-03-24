@@ -88,7 +88,7 @@ https://getbootstrap.com/docs/5.3/components/navbar/#toggler
     
     a responsive nav-bar:
     
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    /*<nav class="navbar navbar-expand-lg navbar-light bg-light">
     
     <a class="navbar-brand" href="">trunks</a>
     
@@ -109,7 +109,9 @@ https://getbootstrap.com/docs/5.3/components/navbar/#toggler
          </li>
     </ul>
    </div>
-</nav>
+</nav>*/
+    
+    
     
     
     
