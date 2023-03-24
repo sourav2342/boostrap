@@ -1,4 +1,4 @@
-# boostrap
+# bootstrap
 
 A "navbar" is an area on a page that contains navigation components (links, buttons, etc) for getting to other pages of the website. 
 A "nav" is an HTML element that is normally used to enclose other elements related to navigation
