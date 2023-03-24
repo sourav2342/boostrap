@@ -123,6 +123,33 @@ https://getbootstrap.com/docs/5.3/components/navbar/#toggler
 </div>
     
     
+    
+Default container 
 
+    Our default .container class is a responsive, fixed-width container, meaning its max-width changes at each breakpoint.
+
+
+<div class="container">
+  <!-- Content here -->
+</div>
+Responsive containers 
+
+    Responsive containers allow you to specify a class that is 100% wide until the specified breakpoint is reached, after which we apply max-widths for each of the higher breakpoints. For example, .container-sm is 100% wide to start until the sm breakpoint is reached, where it will scale up with md, lg, xl, and xxl.
+
+
+<div class="container-sm">100% wide until small breakpoint</div>
+<div class="container-md">100% wide until medium breakpoint</div>
+<div class="container-lg">100% wide until large breakpoint</div>
+<div class="container-xl">100% wide until extra large breakpoint</div>
+<div class="container-xxl">100% wide until extra extra large breakpoint</div>
+
+Fluid containers 
+
+    Use .container-fluid for a full width container, spanning the entire width of the viewport.
+
+
+<div class="container-fluid">
+  ...
+</div>
     
     
