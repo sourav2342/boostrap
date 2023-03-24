@@ -111,8 +111,16 @@ https://getbootstrap.com/docs/5.3/components/navbar/#toggler
    </div>
 </nav>*/
     
+ Bootstrap Grid layout
     
-    
+ <div class="row">
+    <div class="col" style="background-color:red; border:1px solid;"> col </div>
+    <div class="col" style="background-color:red; border:1px solid;"> col </div>
+</div>
+<div class="row">
+    <div class="col-sm-6" style="background-color:red; border:1px solid;"> col </div>
+    <div class="col-sm-6" style="background-color:red; border:1px solid;"> col </div>
+</div>
     
     
 
