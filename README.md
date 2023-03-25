@@ -152,4 +152,10 @@ Fluid containers
   ...
 </div>
     
+if u want to add custom rules to conatiner-fluid use right cascaded order while giving links in html
+   
+    Cascading order: Make sure that your CSS rules are being applied in the correct order. CSS rules are applied in a cascading order, with later rules taking precedence over earlier rules. If there are conflicting rules for the same element, the last one defined will be applied.
+    
+
+    
     
