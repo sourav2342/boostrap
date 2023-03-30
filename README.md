@@ -159,3 +159,31 @@ if u want to add custom rules to conatiner-fluid use right cascaded order while 
 
 use webite fontawesome to find the icon which provides a cdn.
     
+   add the cdn of font-awesome 
+    
+   <section id="features">
+
+    <div class="row justify-content-center">
+
+      <div class="feature-box col-lg-4 p-4">
+        <i class="fa-solid fa-circle-check fa-2x pb-3"></i>
+        <h3 class="">Easy to use.</h3>
+        <p>So easy to use, even your dog could do it.</p>
+      </div>
+
+      <div class="feature-box col-lg-4 p-4">
+        <i class="fa-solid fa-bullseye  fa-2x pb-3"></i> /// ha-font-awesome
+        <h3 class="">Elite Clientele</h3>
+        <p>We have all the dogs, the greatest dogs.</p>
+      </div>
+
+      <div class="feature-box col-lg-4 p-4">
+        <i class="fa-solid fa-heart  fa-2x pb-3"></i>
+        <h3 class="">Guaranteed to work.</h3>
+        <p>Find the love of your dog's life or your money back.</p>
+      </div>
+
+    </div>
+
+  </section>
+    
