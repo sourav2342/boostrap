@@ -195,13 +195,13 @@ Bootstrap carousel - used to have a slideshow in websites
  <div id="carouselExample" class="carousel slide"  data-bs-ride="carousel" data-interval="100">
   <div class="carousel-inner">
     <div class="carousel-item active"  style="background-color:red;">
-       <h1>sdfsdkf</h1>
+       
     </div>
     <div class="carousel-item" style="background-color:yellow;">
-      <h1>sdfsdkf</h1>
+
     </div>
     <div class="carousel-item" style="background-color:green;">
-    <h1>sdfsdkf</h1>
+   
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
