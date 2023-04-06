@@ -187,3 +187,33 @@ use webite fontawesome to find the icon which provides a cdn.
 
   </section>
     
+
+
+Bootstrap carousel - used to have a slideshow in websites
+
+ 
+ <div id="carouselExample" class="carousel slide"  data-bs-ride="carousel" data-interval="100">
+  <div class="carousel-inner">
+    <div class="carousel-item active"  style="background-color:red;">
+       <h1>sdfsdkf</h1>
+    </div>
+    <div class="carousel-item" style="background-color:yellow;">
+      <h1>sdfsdkf</h1>
+    </div>
+    <div class="carousel-item" style="background-color:green;">
+    <h1>sdfsdkf</h1>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  
+</div>
+ 
+ 
+
